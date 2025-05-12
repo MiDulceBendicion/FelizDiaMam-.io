@@ -11,14 +11,16 @@
       padding: 0;
     }
 
-    body {
-      font-family: 'Quicksand', sans-serif;
-      background: linear-gradient(135deg, #ffe6ec, #fff9c4);
-      text-align: center;
-      color: #4e4e4e;
-      padding: 40px 20px;
-      animation: fadeIn 2s ease-in;
-    }
+   body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(135deg, #ffe6ec, #fff9c4);
+  text-align: center;
+  color: #4e4e4e;
+  padding: 40px 20px;
+  animation: fadeIn 2s ease-in;
+  min-height: 100vh; /* Asegura altura completa */
+  overflow-x: hidden; /* Evita desbordes horizontales */
+}
 
     @keyframes fadeIn {
       0% { opacity: 0; transform: translateY(20px); }
